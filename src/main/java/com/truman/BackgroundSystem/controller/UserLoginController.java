@@ -48,6 +48,10 @@ public class UserLoginController {
     RedisTemplate redistemplate;
 
 
+    @GetMapping("/test")
+    public String test(){
+        return "Success! :)";
+    }
     /*
      * 登录验证
      * */
