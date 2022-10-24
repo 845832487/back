@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.truman.BackgroundSystem.mapper.StudentDetailMapper">
+
+
+    <update id="updStudentBasicInfo">
+        update graduation.student_detail
+        set name = #{name},
+            telephone = #{telephone},
+            email = #{email}
+
+        where id = #{id}
+    </update>
+
+    <update id="checkIn">
+        update graduation.student_detail
+        set in_out = true
+        where id = #{id}
+    </update>
+
+    <update id="checkOut">
+        update graduation.student_detail
+        set in_out = false
+        where id = #{id}
+    </update>
+
+    <select id="selNameById" resultType="java.lang.String">
+        select name
+        from student_detail
+        where id = #{id}
+    </select>
+    <select id="selByDorm" resultType="com.truman.BackgroundSystem.entity.StudentDetail">
+        select *
+        from student_detail
+        where building_num = #{buildingNum}
+          and dorm_num = #{dormNum}
+    </select>
+    <select id="selStudentsLeftBySex" resultType="java.lang.Integer">
+        select count(student_detail.id)
+        from student_detail
+        where (sex = #{sex} and building_num is null
+            and dorm_num is null)
+           or (sex = #{sex} and building_num = ''
+            and dorm_num = '')
+    </select>
+    <select id="selStudentLeftDetailBySex" resultType="com.truman.BackgroundSystem.entity.StudentDetail">
+        select *
+        from student_detail
+        where (sex = #{sex} and building_num is null
+            and dorm_num is null)
+           or (sex = #{sex} and building_num = ''
+            and dorm_num = '')
+    </select>
+
+</mapper>

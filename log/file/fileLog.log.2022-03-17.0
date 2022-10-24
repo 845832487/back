@@ -1,0 +1,396 @@
+2022-03-17 02:19:13,809 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.6 on TrumanPC with PID 20208 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-03-17 02:19:13,811 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-03-17 02:19:14,223 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-17 02:19:14,224 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-17 02:19:14,241 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2022-03-17 02:19:14,304 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-03-17 02:19:14,525 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-03-17 02:19:14,531 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-17 02:19:14,532 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-03-17 02:19:14,532 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-17 02:19:14,582 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-03-17 02:19:14,582 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 747 ms
+2022-03-17 02:19:14,788 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-03-17 02:19:14,809 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-03-17 02:19:14,827 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-03-17 02:19:14,846 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-03-17 02:19:14,863 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-03-17 02:19:15,400 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-03-17 02:19:15,412 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-17 02:19:15,419 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 1.904 seconds (JVM running for 2.375)
+2022-03-17 02:19:58,221 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-17 02:19:58,221 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-03-17 02:19:58,222 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-03-17 02:19:58,292 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-03-17 02:20:20,374 ERROR (HikariPool.java:594)- HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:81)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy99.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy69.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:160)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:89)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy84.selectOne(Unknown Source)
+	at com.truman.BackgroundSystem.controller.UserLoginController.userLogin(UserLoginController.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:949)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:819)
+	... 94 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 97 common frames omitted
+2022-03-17 02:20:20,376 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-03-17 02:20:42,422 ERROR (HikariPool.java:594)- HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:829)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:81)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy99.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy69.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:160)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:89)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy84.selectOne(Unknown Source)
+	at com.truman.BackgroundSystem.controller.UserLoginController.userLogin(UserLoginController.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:949)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:819)
+	... 94 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 97 common frames omitted
+2022-03-17 02:56:34,879 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.6 on TrumanPC with PID 13236 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-03-17 02:56:34,880 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-03-17 02:56:35,206 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-17 02:56:35,207 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-17 02:56:35,223 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2022-03-17 02:56:35,281 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-03-17 02:56:35,465 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-03-17 02:56:35,470 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-17 02:56:35,471 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-03-17 02:56:35,471 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-17 02:56:35,523 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-03-17 02:56:35,523 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 623 ms
+2022-03-17 02:56:35,706 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-03-17 02:56:35,729 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-03-17 02:56:35,748 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-03-17 02:56:35,768 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-03-17 02:56:35,787 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-03-17 02:56:36,278 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-03-17 02:56:36,290 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-17 02:56:36,296 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 1.652 seconds (JVM running for 1.978)
+2022-03-17 02:56:48,547 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-17 02:56:48,548 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-03-17 02:56:48,548 INFO (FrameworkServlet.java:547)- Completed initialization in 0 ms
+2022-03-17 02:56:48,617 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-03-17 02:56:48,817 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-03-17 02:57:03,212 INFO (HikariDataSource.java:350)- HikariPool-1 - Shutdown initiated...
+2022-03-17 02:57:03,216 INFO (HikariDataSource.java:352)- HikariPool-1 - Shutdown completed.
+2022-03-17 14:36:31,126 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.6 on TrumanPC with PID 20716 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-03-17 14:36:31,127 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-03-17 14:36:31,612 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-17 14:36:31,614 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-17 14:36:31,637 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-03-17 14:36:31,718 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-03-17 14:36:31,976 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-03-17 14:36:31,982 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-17 14:36:31,983 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-03-17 14:36:31,983 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-17 14:36:32,039 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-03-17 14:36:32,040 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 883 ms
+2022-03-17 14:36:32,300 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-03-17 14:36:32,327 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-03-17 14:36:32,351 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-03-17 14:36:32,372 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-03-17 14:36:32,392 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-03-17 14:36:33,099 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-03-17 14:36:33,118 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-17 14:36:33,129 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.359 seconds (JVM running for 3.438)
+2022-03-17 14:36:52,091 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-17 14:36:52,091 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-03-17 14:36:52,093 INFO (FrameworkServlet.java:547)- Completed initialization in 0 ms
+2022-03-17 14:36:52,176 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-03-17 14:36:52,410 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-03-17 16:39:10,445 INFO (AbstractInternalLogger.java:217)- null Unexpected exception during request: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-03-17 16:39:10,588 INFO (AbstractInternalLogger.java:171)- Reconnecting, last destination was /192.168.116.128:6379
+2022-03-17 16:39:10,624 WARN (AbstractInternalLogger.java:105)- Cannot reconnect to [192.168.116.128/<unresolved>:6379]: No route to host: no further information: /192.168.116.128:6379
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /192.168.116.128:6379
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-03-17 17:01:00,897 INFO (AbstractInternalLogger.java:171)- Reconnecting, last destination was 192.168.116.128/<unresolved>:6379
+2022-03-17 17:01:00,901 WARN (AbstractInternalLogger.java:105)- Cannot reconnect to [192.168.116.128/<unresolved>:6379]: No route to host: no further information: /192.168.116.128:6379
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /192.168.116.128:6379
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-03-17 17:01:11,624 WARN (HikariPool.java:788)- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m17s500ms699µs600ns).
+2022-03-17 17:01:18,366 INFO (AbstractInternalLogger.java:171)- Reconnecting, last destination was 192.168.116.128/<unresolved>:6379
+2022-03-17 17:01:28,369 WARN (AbstractInternalLogger.java:151)- Cannot reconnect to [192.168.116.128/<unresolved>:6379]: connection timed out: /192.168.116.128:6379
+2022-03-17 17:01:36,656 INFO (AbstractInternalLogger.java:171)- Reconnecting, last destination was 192.168.116.128/<unresolved>:6379
+2022-03-17 17:01:46,667 WARN (AbstractInternalLogger.java:151)- Cannot reconnect to [192.168.116.128/<unresolved>:6379]: connection timed out: /192.168.116.128:6379
+2022-03-17 17:02:03,061 INFO (AbstractInternalLogger.java:171)- Reconnecting, last destination was 192.168.116.128/<unresolved>:6379
+2022-03-17 17:02:13,078 WARN (AbstractInternalLogger.java:151)- Cannot reconnect to [192.168.116.128/<unresolved>:6379]: connection timed out: /192.168.116.128:6379
+2022-03-17 17:02:43,169 INFO (AbstractInternalLogger.java:171)- Reconnecting, last destination was 192.168.116.128/<unresolved>:6379
+2022-03-17 17:02:53,182 WARN (AbstractInternalLogger.java:151)- Cannot reconnect to [192.168.116.128/<unresolved>:6379]: connection timed out: /192.168.116.128:6379
+2022-03-17 17:03:23,267 INFO (AbstractInternalLogger.java:171)- Reconnecting, last destination was 192.168.116.128/<unresolved>:6379
+2022-03-17 17:03:23,270 INFO (ReconnectionHandler.java:174)- Reconnected to 192.168.116.128/<unresolved>:6379
+2022-03-17 20:21:03,358 INFO (HikariDataSource.java:350)- HikariPool-1 - Shutdown initiated...
+2022-03-17 20:21:03,359 INFO (HikariDataSource.java:352)- HikariPool-1 - Shutdown completed.

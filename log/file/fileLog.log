@@ -1,0 +1,131 @@
+2022-04-26 12:22:53,729 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.6 on TrumanPC with PID 9288 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-04-26 12:22:53,732 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-04-26 12:22:54,156 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-26 12:22:54,157 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-26 12:22:54,175 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2022-04-26 12:22:54,244 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-04-26 12:22:54,490 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-04-26 12:22:54,497 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-26 12:22:54,497 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-04-26 12:22:54,497 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-04-26 12:22:54,549 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-04-26 12:22:54,549 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 792 ms
+2022-04-26 12:22:54,776 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-04-26 12:22:54,799 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-04-26 12:22:54,821 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-04-26 12:22:54,840 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-04-26 12:22:54,860 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-04-26 12:22:55,459 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-04-26 12:22:55,474 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-26 12:22:55,484 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.053 seconds (JVM running for 2.464)
+2022-04-26 12:26:15,086 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-26 12:26:15,087 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-04-26 12:26:15,087 INFO (FrameworkServlet.java:547)- Completed initialization in 0 ms
+2022-04-26 12:26:15,161 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-04-26 12:26:15,368 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-04-26 12:41:40,352 INFO (AbstractInternalLogger.java:217)- null Unexpected exception during request: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-26 12:41:40,417 INFO (AbstractInternalLogger.java:171)- Reconnecting, last destination was /192.168.116.128:6379
+2022-04-26 12:41:40,427 WARN (AbstractInternalLogger.java:105)- Cannot reconnect to [192.168.116.128/<unresolved>:6379]: No route to host: no further information: /192.168.116.128:6379
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /192.168.116.128:6379
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-26 12:53:12,890 INFO (AbstractInternalLogger.java:171)- Reconnecting, last destination was 192.168.116.128/<unresolved>:6379
+2022-04-26 12:53:12,895 WARN (AbstractInternalLogger.java:105)- Cannot reconnect to [192.168.116.128/<unresolved>:6379]: No route to host: no further information: /192.168.116.128:6379
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /192.168.116.128:6379
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-26 12:53:16,316 WARN (HikariPool.java:788)- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m652ms343µs400ns).
+2022-04-26 12:53:20,816 INFO (ReconnectionHandler.java:174)- Reconnected to 192.168.116.128/<unresolved>:6379
+2022-04-26 14:55:10,290 INFO (AbstractInternalLogger.java:217)- null Unexpected exception during request: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-26 14:55:10,376 INFO (AbstractInternalLogger.java:171)- Reconnecting, last destination was /192.168.116.128:6379
+2022-04-26 14:55:10,379 WARN (AbstractInternalLogger.java:105)- Cannot reconnect to [192.168.116.128/<unresolved>:6379]: No route to host: no further information: /192.168.116.128:6379
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /192.168.116.128:6379
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-26 15:03:39,834 INFO (AbstractInternalLogger.java:171)- Reconnecting, last destination was 192.168.116.128/<unresolved>:6379
+2022-04-26 15:03:39,835 WARN (AbstractInternalLogger.java:105)- Cannot reconnect to [192.168.116.128/<unresolved>:6379]: No route to host: no further information: /192.168.116.128:6379
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /192.168.116.128:6379
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:660)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:875)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2022-04-26 15:03:46,238 WARN (HikariPool.java:788)- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m58s18ms529µs200ns).
+2022-04-26 15:03:46,663 INFO (ReconnectionHandler.java:174)- Reconnected to 192.168.116.128/<unresolved>:6379
+2022-04-26 15:35:53,018 INFO (HikariDataSource.java:350)- HikariPool-1 - Shutdown initiated...
+2022-04-26 15:35:54,048 INFO (HikariDataSource.java:352)- HikariPool-1 - Shutdown completed.

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.truman.BackgroundSystem.mapper.WorkerDetailMapper">
+
+    <select id="selAllDormKeeperIdName" resultType="com.truman.BackgroundSystem.entity.WorkerDetail">
+        select id, name
+        from worker_detail
+        where job like '%宿管%'
+    </select>
+    <select id="selAllRepairerIdName" resultType="com.truman.BackgroundSystem.entity.WorkerDetail">
+        select id, name
+        from worker_detail
+        where job like '%水电修理工%'
+    </select>
+    <select id="selDormKeeperIdNameByStudentId" resultType="com.truman.BackgroundSystem.entity.WorkerDetail">
+        select id, name
+        from worker_detail
+        where building_in_charge
+                  = (select building_num
+                  from student_detail
+                  where student_detail.id = #{id})
+
+
+    </select>
+    <select id="selNameById" resultType="java.lang.String">
+        select name
+        from worker_detail
+        where id = #{id}
+    </select>
+    <select id="selAllCounselorIdName" resultType="com.truman.BackgroundSystem.entity.WorkerDetail">
+        select id, name
+        from worker_detail
+        where job like '%辅导员%'
+    </select>
+    <select id="selAllDormManagerIdName" resultType="com.truman.BackgroundSystem.entity.WorkerDetail">
+        select id, name
+        from worker_detail
+        where job like '%公寓中心领导%'
+
+    </select>
+</mapper>

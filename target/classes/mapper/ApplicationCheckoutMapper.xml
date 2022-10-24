@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.truman.BackgroundSystem.mapper.ApplicationCheckoutMapper">
+    <update id="updateCounselorById">
+        update application_checkout
+        set counselor_id = #{counselorId}
+        where application_id = #{applicationId}
+    </update>
+    <update id="updateDormManagerById">
+        update application_checkout
+        set dormmanager_id = #{dormmanagerId}
+        where application_id = #{applicationId}
+    </update>
+    <update id="setTaskFinish">
+        update application_checkout set finish_time = current_timestamp where application_id = #{applicationId}
+    </update>
+
+
+    <select id="getAllNotFinishedCheckOutByApplicantId" resultType="com.truman.BackgroundSystem.entity.ApplicationCheckout">
+        select *
+        from application_checkout
+        where applicant_id = #{id}
+          and finish_time is null
+    </select>
+    <select id="selDetailById" resultType="com.truman.BackgroundSystem.entity.ApplicationCheckout">
+        select *
+        from application_checkout
+        where application_id = #{id}
+    </select>
+    <select id="selNotFinishByApplicantId" resultType="com.truman.BackgroundSystem.entity.ApplicationCheckout">
+        select *
+        from application_checkout
+        where applicant_id = #{id}
+          and finish_time is null
+    </select>
+</mapper>

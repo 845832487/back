@@ -1,0 +1,1179 @@
+2022-02-19 17:52:05,808 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 2448 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 17:52:05,813 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 17:52:06,478 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 17:52:06,482 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 17:52:06,515 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2022-02-19 17:52:06,604 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 17:52:06,904 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 17:52:06,904 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 17:52:06,904 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 17:52:06,904 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 17:52:06,904 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 17:52:06,920 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 17:52:06,924 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 17:52:06,924 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 17:52:06,924 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 17:52:06,998 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 17:52:06,998 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 1137 ms
+2022-02-19 17:52:07,200 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 17:52:07,261 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 17:52:07,300 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 17:52:07,331 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 17:52:07,368 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 17:52:07,405 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 17:52:07,440 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationWater".
+2022-02-19 17:52:07,476 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 17:52:08,299 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 17:52:08,318 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 17:52:08,328 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 3.196 seconds (JVM running for 4.739)
+2022-02-19 17:52:14,389 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 17:52:14,389 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 17:52:14,390 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 17:52:14,489 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 17:52:14,748 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 17:55:42,099 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 16428 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 17:55:42,101 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 17:55:42,585 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 17:55:42,589 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 17:55:42,609 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2022-02-19 17:55:42,687 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 17:55:42,934 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 17:55:42,938 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 17:55:42,938 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 17:55:42,938 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 17:55:42,938 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 17:55:42,938 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 17:55:42,946 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 17:55:42,946 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 17:55:42,946 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 17:55:43,008 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 17:55:43,008 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 871 ms
+2022-02-19 17:55:43,161 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 17:55:43,212 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 17:55:43,247 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 17:55:43,278 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 17:55:43,304 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 17:55:43,335 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 17:55:43,355 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationWater".
+2022-02-19 17:55:43,374 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 17:55:44,029 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 17:55:44,048 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 17:55:44,056 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.349 seconds (JVM running for 3.04)
+2022-02-19 17:55:47,026 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 17:55:47,026 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 17:55:47,027 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 17:55:47,105 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 17:55:47,306 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 18:48:59,597 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 21112 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 18:48:59,601 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 18:49:00,390 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 6420 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 18:49:00,394 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 18:49:00,660 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 18:49:00,664 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 18:49:00,708 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2022-02-19 18:49:00,834 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 18:49:01,092 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 18:49:01,092 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 18:49:01,127 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2022-02-19 18:49:01,194 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 18:49:01,194 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 18:49:01,194 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 18:49:01,194 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 18:49:01,194 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 18:49:01,198 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 18:49:01,206 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 18:49:01,206 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 18:49:01,206 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 18:49:01,229 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 18:49:01,280 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 18:49:01,284 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 1624 ms
+2022-02-19 18:49:01,507 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 18:49:01,557 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 18:49:01,561 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 18:49:01,561 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 18:49:01,561 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 18:49:01,561 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 18:49:01,565 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 18:49:01,569 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 18:49:01,573 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 18:49:01,573 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 18:49:01,581 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 18:49:01,637 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 18:49:01,661 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 18:49:01,661 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 1222 ms
+2022-02-19 18:49:01,673 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 18:49:01,700 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 18:49:01,727 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 18:49:01,751 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 18:49:01,865 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 18:49:01,924 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 18:49:01,967 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 18:49:02,006 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 18:49:02,037 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 18:49:02,068 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 18:49:02,103 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 18:49:02,755 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 18:49:02,782 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 18:49:02,799 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 3.804 seconds (JVM running for 5.26)
+2022-02-19 18:49:03,025 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 18:49:03,029 WARN (AbstractApplicationContext.java:591)- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2022-02-19 18:49:03,040 INFO (DirectJDKLog.java:173)- Pausing ProtocolHandler ["http-nio-8081"]
+2022-02-19 18:49:03,040 INFO (DirectJDKLog.java:173)- Stopping service [Tomcat]
+2022-02-19 18:49:03,044 INFO (DirectJDKLog.java:173)- Stopping ProtocolHandler ["http-nio-8081"]
+2022-02-19 18:49:03,044 INFO (DirectJDKLog.java:173)- Destroying ProtocolHandler ["http-nio-8081"]
+2022-02-19 18:49:03,052 INFO (ConditionEvaluationReportLoggingListener.java:136)- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-19 18:49:03,063 ERROR (LoggingFailureAnalysisReporter.java:40)- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2022-02-19 18:49:14,124 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 14636 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 18:49:14,128 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 18:49:14,662 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 18:49:14,665 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 18:49:14,685 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2022-02-19 18:49:14,763 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 18:49:15,014 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 18:49:15,014 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 18:49:15,014 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 18:49:15,014 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 18:49:15,014 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 18:49:15,014 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 18:49:15,022 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 18:49:15,022 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 18:49:15,022 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 18:49:15,084 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 18:49:15,088 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 922 ms
+2022-02-19 18:49:15,258 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 18:49:15,313 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 18:49:15,348 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 18:49:15,375 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 18:49:15,402 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 18:49:15,430 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 18:49:15,453 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 18:49:16,112 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 18:49:16,131 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 18:49:16,139 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.493 seconds (JVM running for 3.118)
+2022-02-19 18:49:38,244 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 18:49:38,244 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 18:49:38,244 INFO (FrameworkServlet.java:547)- Completed initialization in 0 ms
+2022-02-19 18:49:47,890 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 18:49:48,156 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 19:26:06,625 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 2736 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 19:26:06,627 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 19:26:07,230 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 19:26:07,232 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 19:26:07,255 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2022-02-19 19:26:07,337 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 19:26:07,604 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 19:26:07,604 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 19:26:07,604 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 19:26:07,605 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 19:26:07,605 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 19:26:07,607 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 19:26:07,613 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 19:26:07,614 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 19:26:07,614 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 19:26:07,681 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 19:26:07,683 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 1007 ms
+2022-02-19 19:26:07,858 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 19:26:07,922 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 19:26:07,964 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 19:26:08,001 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 19:26:08,030 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 19:26:08,058 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 19:26:08,085 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 19:26:08,803 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 19:26:08,823 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 19:26:08,832 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.724 seconds (JVM running for 3.499)
+2022-02-19 19:26:15,784 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 19:26:15,785 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 19:26:15,786 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 19:26:15,838 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 19:26:16,216 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 19:39:03,640 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 508 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 19:39:03,643 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 19:39:04,238 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 19:39:04,240 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 19:39:04,268 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2022-02-19 19:39:04,355 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 19:39:04,677 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 19:39:04,678 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 19:39:04,678 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 19:39:04,679 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 19:39:04,679 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 19:39:04,682 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 19:39:04,689 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 19:39:04,690 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 19:39:04,690 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 19:39:04,780 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 19:39:04,782 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 1088 ms
+2022-02-19 19:39:04,960 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 19:39:05,023 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 19:39:05,063 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 19:39:05,096 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 19:39:05,129 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 19:39:05,153 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 19:39:05,176 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 19:39:05,951 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 19:39:05,970 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 19:39:05,978 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.771 seconds (JVM running for 3.326)
+2022-02-19 19:39:10,708 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 19:39:10,708 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 19:39:10,709 INFO (FrameworkServlet.java:547)- Completed initialization in 0 ms
+2022-02-19 19:39:10,744 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 19:39:10,958 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 19:41:29,914 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 9804 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 19:41:29,916 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 19:41:30,539 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 19:41:30,541 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 19:41:30,565 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2022-02-19 19:41:30,649 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 19:41:30,917 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 19:41:30,918 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 19:41:30,918 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 19:41:30,918 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 19:41:30,918 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 19:41:30,921 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 19:41:30,926 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 19:41:30,927 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 19:41:30,927 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 19:41:30,994 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 19:41:30,995 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 1022 ms
+2022-02-19 19:41:31,176 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 19:41:31,234 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 19:41:31,273 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 19:41:31,305 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 19:41:31,334 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 19:41:31,363 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 19:41:31,390 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 19:41:32,132 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 19:41:32,152 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 19:41:32,161 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.644 seconds (JVM running for 3.255)
+2022-02-19 19:41:34,941 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 19:41:34,941 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 19:41:34,942 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 19:41:35,029 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 19:41:35,251 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 19:43:50,406 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 4072 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 19:43:50,409 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 19:43:50,971 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 19:43:50,973 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 19:43:50,995 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-02-19 19:43:51,073 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 19:43:51,341 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 19:43:51,342 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 19:43:51,342 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 19:43:51,342 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 19:43:51,342 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 19:43:51,345 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 19:43:51,351 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 19:43:51,352 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 19:43:51,352 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 19:43:51,418 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 19:43:51,418 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 964 ms
+2022-02-19 19:43:51,585 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 19:43:51,638 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 19:43:51,677 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 19:43:51,708 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 19:43:51,743 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 19:43:51,765 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 19:43:51,788 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 19:43:52,495 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 19:43:52,513 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 19:43:52,523 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.523 seconds (JVM running for 3.06)
+2022-02-19 19:48:15,907 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 19:48:15,908 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 19:48:15,909 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 19:48:15,946 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 19:48:16,205 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 19:55:54,704 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 13860 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 19:55:54,708 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 19:55:55,330 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 19:55:55,333 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 19:55:55,364 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2022-02-19 19:55:55,474 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 19:55:55,762 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 19:55:55,763 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 19:55:55,763 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 19:55:55,763 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 19:55:55,764 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 19:55:55,766 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 19:55:55,773 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 19:55:55,773 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 19:55:55,774 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 19:55:55,848 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 19:55:55,849 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 1098 ms
+2022-02-19 19:55:56,031 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 19:55:56,087 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 19:55:56,127 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 19:55:56,161 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 19:55:56,193 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 19:55:56,225 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 19:55:56,260 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 19:55:57,019 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 19:55:57,038 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 19:55:57,048 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.851 seconds (JVM running for 3.489)
+2022-02-19 19:56:00,754 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 19:56:00,754 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 19:56:00,755 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 19:56:00,831 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 19:56:01,045 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 19:57:54,991 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 13700 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 19:57:54,998 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 19:57:55,629 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 19:57:55,631 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 19:57:55,658 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2022-02-19 19:57:55,746 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 19:57:56,021 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 19:57:56,022 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 19:57:56,022 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 19:57:56,022 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 19:57:56,022 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 19:57:56,025 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 19:57:56,031 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 19:57:56,032 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 19:57:56,032 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 19:57:56,106 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 19:57:56,107 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 1051 ms
+2022-02-19 19:57:56,309 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 19:57:56,361 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 19:57:56,399 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 19:57:56,430 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 19:57:56,459 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 19:57:56,487 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 19:57:56,514 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 19:57:57,229 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 19:57:57,248 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 19:57:57,259 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.703 seconds (JVM running for 3.301)
+2022-02-19 19:58:22,501 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 19768 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 19:58:22,503 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 19:58:23,147 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 19:58:23,149 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 19:58:23,178 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2022-02-19 19:58:23,291 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 19:58:23,599 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 19:58:23,600 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 19:58:23,601 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 19:58:23,601 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 19:58:23,601 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 19:58:23,604 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 19:58:23,610 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 19:58:23,610 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 19:58:23,610 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 19:58:23,692 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 19:58:23,692 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 1155 ms
+2022-02-19 19:58:23,864 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 19:58:23,920 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 19:58:23,963 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 19:58:23,995 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 19:58:24,024 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 19:58:24,054 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 19:58:24,080 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 19:58:25,289 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 19:58:25,312 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 19:58:25,322 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 3.361 seconds (JVM running for 4.051)
+2022-02-19 19:58:31,997 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 19:58:31,997 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 19:58:31,998 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 19:58:32,076 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 19:58:32,290 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 19:59:22,077 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 15660 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 19:59:22,079 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 19:59:22,629 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 19:59:22,631 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 19:59:22,654 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-02-19 19:59:22,733 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 19:59:23,016 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 19:59:23,017 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 19:59:23,018 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 19:59:23,018 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 19:59:23,018 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 19:59:23,021 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 19:59:23,027 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 19:59:23,027 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 19:59:23,027 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 19:59:23,092 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 19:59:23,093 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 979 ms
+2022-02-19 19:59:23,281 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 19:59:23,353 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 19:59:23,403 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 19:59:23,439 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 19:59:23,472 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 19:59:23,502 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 19:59:23,532 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 19:59:24,351 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 19:59:24,370 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 19:59:24,378 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.818 seconds (JVM running for 3.443)
+2022-02-19 19:59:26,581 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 19:59:26,581 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 19:59:26,583 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 19:59:26,677 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 19:59:26,886 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 20:01:31,948 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 964 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 20:01:31,951 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 20:01:32,508 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 20:01:32,510 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 20:01:32,537 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2022-02-19 20:01:32,632 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 20:01:32,895 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 20:01:32,896 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 20:01:32,896 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 20:01:32,897 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 20:01:32,897 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 20:01:32,901 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 20:01:32,907 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 20:01:32,907 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 20:01:32,907 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 20:01:32,973 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 20:01:32,974 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 976 ms
+2022-02-19 20:01:33,137 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 20:01:33,192 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 20:01:33,232 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 20:01:33,265 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 20:01:33,299 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 20:01:33,322 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 20:01:33,345 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 20:01:34,103 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 20:01:34,121 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 20:01:34,130 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.575 seconds (JVM running for 3.148)
+2022-02-19 20:01:39,585 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 20:01:39,585 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 20:01:39,586 INFO (FrameworkServlet.java:547)- Completed initialization in 0 ms
+2022-02-19 20:01:39,665 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 20:01:39,873 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 21:22:42,320 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 17076 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 21:22:42,323 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 21:22:42,870 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 21:22:42,872 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 21:22:42,893 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-02-19 21:22:42,970 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 21:22:43,228 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 21:22:43,228 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 21:22:43,229 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 21:22:43,229 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 21:22:43,229 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 21:22:43,231 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 21:22:43,237 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 21:22:43,238 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 21:22:43,238 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 21:22:43,301 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 21:22:43,303 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 929 ms
+2022-02-19 21:22:43,489 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 21:22:43,551 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 21:22:43,595 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 21:22:43,630 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 21:22:43,667 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 21:22:43,690 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 21:22:43,712 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 21:22:44,440 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 21:22:44,458 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 21:22:44,468 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.624 seconds (JVM running for 3.151)
+2022-02-19 21:22:47,783 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 21:22:47,783 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 21:22:47,784 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 21:22:47,825 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 21:22:48,055 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 21:24:00,832 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 15920 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 21:24:00,835 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 21:24:01,339 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 21:24:01,341 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 21:24:01,364 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2022-02-19 21:24:01,441 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 21:24:01,708 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 21:24:01,709 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 21:24:01,709 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 21:24:01,709 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 21:24:01,710 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 21:24:01,712 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 21:24:01,719 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 21:24:01,719 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 21:24:01,719 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 21:24:01,794 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 21:24:01,794 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 926 ms
+2022-02-19 21:24:01,952 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 21:24:02,004 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 21:24:02,042 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 21:24:02,074 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 21:24:02,104 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 21:24:02,132 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 21:24:02,157 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 21:24:02,908 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 21:24:02,928 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 21:24:02,936 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.598 seconds (JVM running for 3.505)
+2022-02-19 21:24:05,775 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 21:24:05,775 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 21:24:05,776 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 21:24:05,804 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 21:24:06,006 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 22:35:58,307 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 1936 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 22:35:58,311 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 22:35:58,965 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 22:35:58,965 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 22:35:58,996 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2022-02-19 22:35:59,111 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 22:35:59,455 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 22:35:59,455 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 22:35:59,455 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 22:35:59,455 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 22:35:59,455 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 22:35:59,471 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 22:35:59,479 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 22:35:59,479 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 22:35:59,483 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 22:35:59,565 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 22:35:59,565 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 1207 ms
+2022-02-19 22:35:59,768 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 22:35:59,822 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 22:35:59,861 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 22:35:59,889 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 22:35:59,916 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 22:35:59,939 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 22:35:59,967 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 22:36:00,819 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 22:36:00,843 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 22:36:00,850 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 3.141 seconds (JVM running for 4.073)
+2022-02-19 22:42:52,257 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 8636 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 22:42:52,261 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 22:42:52,769 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 22:42:52,769 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 22:42:52,792 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-02-19 22:42:52,867 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 22:42:53,149 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 22:42:53,153 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 22:42:53,153 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 22:42:53,153 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 22:42:53,153 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 22:42:53,153 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 22:42:53,160 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 22:42:53,160 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 22:42:53,160 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 22:42:53,223 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 22:42:53,227 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 921 ms
+2022-02-19 22:42:53,400 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 22:42:53,456 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 22:42:53,491 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 22:42:53,518 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 22:42:53,550 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 22:42:53,573 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 22:42:53,593 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 22:42:54,354 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 22:42:54,377 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 22:42:54,385 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.568 seconds (JVM running for 3.131)
+2022-02-19 22:43:12,583 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 22:43:12,583 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 22:43:12,584 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 22:43:12,682 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 22:43:12,972 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 22:44:54,350 WARN (AbstractHandlerExceptionResolver.java:208)- Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'id' for method parameter type String is not present]
+2022-02-19 22:50:29,065 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 4660 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 22:50:29,068 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 22:50:29,567 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 22:50:29,571 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 22:50:29,590 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-02-19 22:50:29,669 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 22:50:29,911 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 22:50:29,914 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 22:50:29,914 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 22:50:29,914 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 22:50:29,914 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 22:50:29,914 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 22:50:29,922 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 22:50:29,922 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 22:50:29,922 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 22:50:30,000 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 22:50:30,004 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 902 ms
+2022-02-19 22:50:30,205 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 22:50:30,268 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 22:50:30,301 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 22:50:30,332 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 22:50:30,359 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 22:50:30,387 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 22:50:30,411 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 22:50:31,092 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 22:50:31,110 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 22:50:31,117 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.582 seconds (JVM running for 3.223)
+2022-02-19 22:50:36,407 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 22:50:36,407 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 22:50:36,408 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 22:50:36,451 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 22:50:36,817 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 22:54:41,660 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 21236 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 22:54:41,660 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 22:54:42,162 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 22:54:42,162 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 22:54:42,186 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-02-19 22:54:42,260 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 22:54:42,515 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 22:54:42,515 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 22:54:42,515 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 22:54:42,515 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 22:54:42,515 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 22:54:42,519 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 22:54:42,523 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 22:54:42,523 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 22:54:42,523 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 22:54:42,593 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 22:54:42,593 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 892 ms
+2022-02-19 22:54:42,753 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 22:54:42,804 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 22:54:42,839 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 22:54:42,870 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 22:54:42,901 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 22:54:42,925 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 22:54:42,945 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 22:54:43,604 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 22:54:43,620 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 22:54:43,627 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.399 seconds (JVM running for 2.99)
+2022-02-19 22:54:49,404 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 22:54:49,405 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 22:54:49,406 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 22:54:49,446 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 22:54:49,786 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 22:55:47,296 WARN (AbstractHandlerExceptionResolver.java:208)- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-19 22:55:50,261 WARN (AbstractHandlerExceptionResolver.java:208)- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-02-19 22:56:24,742 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 3876 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 22:56:24,745 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 22:56:25,309 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 22:56:25,313 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 22:56:25,337 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2022-02-19 22:56:25,416 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 22:56:25,703 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 22:56:25,703 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 22:56:25,703 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 22:56:25,703 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 22:56:25,703 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 22:56:25,707 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 22:56:25,710 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 22:56:25,710 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 22:56:25,710 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 22:56:25,777 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 22:56:25,781 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 1001 ms
+2022-02-19 22:56:25,951 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 22:56:26,021 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 22:56:26,096 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 22:56:26,131 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 22:56:26,172 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 22:56:26,199 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 22:56:26,231 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 22:56:27,058 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 22:56:27,085 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 22:56:27,122 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.742 seconds (JVM running for 3.25)
+2022-02-19 22:56:30,085 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 22:56:30,085 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 22:56:30,086 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 22:56:30,124 WARN (AbstractHandlerExceptionResolver.java:208)- Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'id' for method parameter type String is not present]
+2022-02-19 22:56:30,140 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 22:56:30,486 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 22:56:51,882 WARN (AbstractHandlerExceptionResolver.java:208)- Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'id' for method parameter type String is not present]
+2022-02-19 22:56:54,429 WARN (AbstractHandlerExceptionResolver.java:208)- Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'id' for method parameter type String is not present]
+2022-02-19 22:57:07,332 WARN (AbstractHandlerExceptionResolver.java:208)- Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'id' for method parameter type String is not present]
+2022-02-19 22:57:10,362 WARN (AbstractHandlerExceptionResolver.java:208)- Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'id' for method parameter type String is not present]
+2022-02-19 22:58:33,531 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 9736 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 22:58:33,531 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 22:58:34,065 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 22:58:34,069 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 22:58:34,100 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2022-02-19 22:58:34,189 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 22:58:34,440 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 22:58:34,440 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 22:58:34,440 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 22:58:34,440 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 22:58:34,440 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 22:58:34,444 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 22:58:34,448 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 22:58:34,448 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 22:58:34,448 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 22:58:34,512 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 22:58:34,512 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 946 ms
+2022-02-19 22:58:34,676 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 22:58:34,731 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 22:58:34,766 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 22:58:34,797 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 22:58:34,828 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 22:58:34,848 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 22:58:34,867 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 22:58:35,533 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 22:58:35,556 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 22:58:35,564 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.403 seconds (JVM running for 2.969)
+2022-02-19 22:58:39,842 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 22:58:39,842 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 22:58:39,843 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 22:58:39,881 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 22:58:40,256 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 22:59:12,582 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 17596 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 22:59:12,582 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 22:59:13,141 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 22:59:13,141 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 22:59:13,165 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2022-02-19 22:59:13,247 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 22:59:13,521 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 22:59:13,521 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 22:59:13,521 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 22:59:13,521 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 22:59:13,521 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 22:59:13,525 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 22:59:13,529 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 22:59:13,529 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 22:59:13,529 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 22:59:13,591 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 22:59:13,595 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 978 ms
+2022-02-19 22:59:13,757 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 22:59:13,816 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 22:59:13,859 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 22:59:13,890 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 22:59:13,921 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 22:59:13,944 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 22:59:13,964 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 22:59:14,676 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 22:59:14,691 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 22:59:14,699 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.504 seconds (JVM running for 3.084)
+2022-02-19 22:59:19,040 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 22:59:19,040 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 22:59:19,041 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 22:59:19,082 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 22:59:19,419 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 23:00:35,484 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 11224 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 23:00:35,484 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 23:00:36,009 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 23:00:36,009 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 23:00:36,033 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-02-19 23:00:36,104 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 23:00:36,387 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 23:00:36,387 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 23:00:36,387 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 23:00:36,387 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 23:00:36,387 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 23:00:36,391 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 23:00:36,395 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:00:36,395 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 23:00:36,395 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 23:00:36,463 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 23:00:36,463 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 939 ms
+2022-02-19 23:00:36,631 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 23:00:36,685 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 23:00:36,720 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 23:00:36,752 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 23:00:36,779 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 23:00:36,810 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 23:00:36,830 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 23:00:37,504 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:00:37,520 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 23:00:37,528 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.446 seconds (JVM running for 3.034)
+2022-02-19 23:00:41,573 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 23:00:41,573 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 23:00:41,575 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 23:00:41,637 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 23:00:42,103 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 23:01:03,427 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 20140 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 23:01:03,427 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 23:01:03,943 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 23:01:03,943 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 23:01:03,966 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-02-19 23:01:04,040 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 23:01:04,287 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 23:01:04,287 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 23:01:04,287 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 23:01:04,287 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 23:01:04,287 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 23:01:04,291 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 23:01:04,295 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:01:04,295 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 23:01:04,295 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 23:01:04,358 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 23:01:04,358 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 888 ms
+2022-02-19 23:01:04,523 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 23:01:04,578 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 23:01:04,620 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 23:01:04,652 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 23:01:04,683 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 23:01:04,702 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 23:01:04,722 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 23:01:05,381 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:01:05,396 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 23:01:05,404 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.345 seconds (JVM running for 2.894)
+2022-02-19 23:01:09,544 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 23:01:09,545 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 23:01:09,546 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 23:01:09,591 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 23:01:09,971 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 23:04:29,574 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 22012 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 23:04:29,578 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 23:04:30,088 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 23:04:30,092 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 23:04:30,112 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-02-19 23:04:30,190 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 23:04:30,449 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 23:04:30,452 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 23:04:30,452 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 23:04:30,452 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 23:04:30,452 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 23:04:30,452 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 23:04:30,460 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:04:30,460 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 23:04:30,460 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 23:04:30,525 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 23:04:30,525 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 909 ms
+2022-02-19 23:04:30,692 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 23:04:30,743 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 23:04:30,778 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 23:04:30,806 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 23:04:30,833 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 23:04:30,856 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 23:04:30,880 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 23:04:31,553 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:04:31,570 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 23:04:31,578 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.415 seconds (JVM running for 3.027)
+2022-02-19 23:04:36,054 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 23:04:36,055 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 23:04:36,056 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 23:04:36,110 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 23:04:36,473 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 23:06:55,225 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 22368 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 23:06:55,229 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 23:06:55,803 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 23:06:55,806 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 23:06:55,842 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2022-02-19 23:06:55,931 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 23:06:56,299 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 23:06:56,299 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 23:06:56,299 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 23:06:56,299 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 23:06:56,299 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 23:06:56,303 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 23:06:56,311 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:06:56,311 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 23:06:56,311 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 23:06:56,680 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 23:06:56,680 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 1413 ms
+2022-02-19 23:06:57,210 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 23:06:57,292 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 23:06:57,343 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 23:06:57,386 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 23:06:57,443 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 23:06:57,470 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 23:06:57,497 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 23:06:58,257 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:06:58,276 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 23:06:58,288 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 3.449 seconds (JVM running for 4.022)
+2022-02-19 23:07:03,862 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 23:07:03,863 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 23:07:03,864 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 23:07:03,911 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 23:07:04,266 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 23:07:42,441 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 21864 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 23:07:42,446 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 23:07:42,961 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 23:07:42,961 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 23:07:42,984 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-02-19 23:07:43,060 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 23:07:43,314 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 23:07:43,314 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 23:07:43,314 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 23:07:43,314 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 23:07:43,314 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 23:07:43,317 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 23:07:43,321 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:07:43,321 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 23:07:43,321 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 23:07:43,392 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 23:07:43,392 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 903 ms
+2022-02-19 23:07:43,585 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 23:07:43,644 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 23:07:43,679 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 23:07:43,710 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 23:07:43,742 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 23:07:43,765 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 23:07:43,785 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 23:07:44,442 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:07:44,473 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 23:07:44,473 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.649 seconds (JVM running for 3.168)
+2022-02-19 23:07:49,828 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 23:07:49,829 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 23:07:49,830 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 23:07:49,868 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 23:07:50,227 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 23:10:18,335 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 4268 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 23:10:18,335 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 23:10:18,849 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 23:10:18,849 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 23:10:18,869 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-02-19 23:10:18,943 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 23:10:19,199 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 23:10:19,203 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 23:10:19,203 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 23:10:19,203 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 23:10:19,203 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 23:10:19,203 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 23:10:19,211 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:10:19,211 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 23:10:19,211 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 23:10:19,273 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 23:10:19,273 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 904 ms
+2022-02-19 23:10:19,435 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 23:10:19,489 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 23:10:19,524 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 23:10:19,555 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 23:10:19,587 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 23:10:19,606 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 23:10:19,626 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 23:10:20,351 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:10:20,370 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 23:10:20,378 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.449 seconds (JVM running for 3.021)
+2022-02-19 23:10:27,339 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 23:10:27,339 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 23:10:27,340 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 23:10:27,378 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 23:10:27,728 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 23:20:58,010 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 15708 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 23:20:58,012 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 23:20:58,507 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 23:20:58,507 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 23:20:58,531 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-02-19 23:20:58,609 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 23:20:58,886 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 23:20:58,890 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 23:20:58,890 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 23:20:58,890 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 23:20:58,890 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 23:20:58,890 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 23:20:58,898 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:20:58,898 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 23:20:58,898 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 23:20:58,980 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 23:20:58,980 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 935 ms
+2022-02-19 23:20:59,157 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 23:20:59,203 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 23:20:59,239 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 23:20:59,270 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 23:20:59,293 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 23:20:59,320 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 23:20:59,344 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 23:21:00,061 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:21:00,081 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 23:21:00,088 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.474 seconds (JVM running for 3.312)
+2022-02-19 23:21:05,032 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 23:21:05,033 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 23:21:05,034 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 23:21:05,079 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 23:21:05,479 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 23:21:56,908 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 9100 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 23:21:56,910 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 23:22:01,361 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 9020 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 23:22:01,361 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 23:22:01,960 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 23:22:01,960 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 23:22:01,983 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2022-02-19 23:22:02,070 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 23:22:02,333 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 23:22:02,333 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 23:22:02,333 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 23:22:02,333 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 23:22:02,333 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 23:22:02,337 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 23:22:02,341 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:22:02,341 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 23:22:02,341 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 23:22:02,408 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 23:22:02,409 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 1002 ms
+2022-02-19 23:22:02,588 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 23:22:02,659 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 23:22:02,698 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 23:22:02,733 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 23:22:02,764 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 23:22:02,799 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 23:22:02,823 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 23:22:03,559 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:22:03,578 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 23:22:03,586 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.625 seconds (JVM running for 3.231)
+2022-02-19 23:22:07,632 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 23:22:07,632 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 23:22:07,633 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 23:22:07,673 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 23:22:08,022 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 23:33:24,392 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 20424 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 23:33:24,392 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 23:33:24,915 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 23:33:24,919 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 23:33:24,939 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-02-19 23:33:25,015 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 23:33:25,270 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 23:33:25,270 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 23:33:25,270 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 23:33:25,270 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 23:33:25,270 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 23:33:25,274 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 23:33:25,278 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:33:25,278 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 23:33:25,278 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 23:33:25,341 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 23:33:25,341 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 909 ms
+2022-02-19 23:33:25,502 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 23:33:25,560 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 23:33:25,596 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 23:33:25,631 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 23:33:25,666 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 23:33:25,685 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 23:33:25,709 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 23:33:26,407 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:33:26,426 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 23:33:26,434 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.478 seconds (JVM running for 3.011)
+2022-02-19 23:33:32,230 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 23:33:32,231 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 23:33:32,232 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 23:33:32,270 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 23:33:32,608 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 23:39:26,945 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 11468 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 23:39:26,950 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 23:39:27,429 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 23:39:27,429 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 23:39:27,452 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-02-19 23:39:27,533 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 23:39:27,818 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 23:39:27,818 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 23:39:27,818 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 23:39:27,818 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 23:39:27,818 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 23:39:27,822 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 23:39:27,826 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:39:27,826 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 23:39:27,826 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 23:39:27,896 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 23:39:27,896 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 912 ms
+2022-02-19 23:39:28,069 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 23:39:28,120 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 23:39:28,165 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 23:39:28,200 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 23:39:28,232 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 23:39:28,259 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 23:39:28,286 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 23:39:28,976 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:39:28,996 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 23:39:29,004 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.475 seconds (JVM running for 3.312)
+2022-02-19 23:39:34,075 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 23:39:34,075 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 23:39:34,076 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 23:39:34,118 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 23:39:34,472 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 23:39:45,126 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 8872 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 23:39:45,130 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 23:39:45,747 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 23:39:45,747 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 23:39:45,771 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-02-19 23:39:45,851 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 23:39:46,134 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 23:39:46,134 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 23:39:46,134 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 23:39:46,134 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 23:39:46,134 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 23:39:46,138 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 23:39:46,142 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:39:46,142 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 23:39:46,142 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 23:39:46,208 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 23:39:46,208 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 1042 ms
+2022-02-19 23:39:46,364 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 23:39:46,416 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 23:39:46,455 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 23:39:46,483 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 23:39:46,510 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 23:39:46,534 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 23:39:46,561 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 23:39:47,322 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:39:47,349 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 23:39:47,361 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.667 seconds (JVM running for 3.381)
+2022-02-19 23:41:47,881 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 12248 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 23:41:47,884 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 23:41:48,468 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 23:41:48,468 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 23:41:48,491 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-02-19 23:41:48,580 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 23:41:48,837 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 23:41:48,837 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 23:41:48,837 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 23:41:48,837 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 23:41:48,837 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 23:41:48,841 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 23:41:48,847 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:41:48,848 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 23:41:48,848 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 23:41:48,912 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 23:41:48,913 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 976 ms
+2022-02-19 23:41:49,073 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 23:41:49,120 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 23:41:49,183 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 23:41:49,229 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 23:41:49,261 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 23:41:49,292 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 23:41:49,308 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 23:41:50,133 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:41:50,153 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 23:41:50,165 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.707 seconds (JVM running for 3.341)
+2022-02-19 23:41:55,923 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 23:41:55,924 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 23:41:55,924 INFO (FrameworkServlet.java:547)- Completed initialization in 0 ms
+2022-02-19 23:41:55,965 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 23:41:56,335 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 23:50:00,645 WARN (PoolBase.java:184)- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@8119c3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-02-19 23:50:00,648 WARN (PoolBase.java:184)- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@b59f45b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-02-19 23:50:00,652 WARN (PoolBase.java:184)- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@39ebbf2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-02-19 23:50:00,666 WARN (PoolBase.java:184)- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3e185b64 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-02-19 23:50:00,668 WARN (PoolBase.java:184)- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6efb8788 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-02-19 23:50:00,670 WARN (PoolBase.java:184)- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2ac45d20 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-02-19 23:50:00,671 WARN (PoolBase.java:184)- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5cf322a1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-02-19 23:50:00,678 WARN (PoolBase.java:184)- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@204c8120 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-02-19 23:50:00,679 WARN (PoolBase.java:184)- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@12399566 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-02-19 23:50:00,680 WARN (PoolBase.java:184)- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1a9ce75c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-02-19 23:50:07,930 INFO (StartupInfoLogger.java:55)- Starting BackgroundSystemApplication using Java 15.0.2 on TrumanV with PID 8796 (C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage\target\classes started by 84583 in C:\Users\84583\Desktop\宿舍管理系统\graduation_backstage)
+2022-02-19 23:50:07,930 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2022-02-19 23:50:08,451 INFO (RepositoryConfigurationDelegate.java:262)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-19 23:50:08,455 INFO (RepositoryConfigurationDelegate.java:132)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-19 23:50:08,474 INFO (RepositoryConfigurationDelegate.java:201)- Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-02-19 23:50:08,552 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.truman.BackgroundSystem.service.*.mapper*]' package. Please check your configuration.
+2022-02-19 23:50:08,806 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8081 (http)
+2022-02-19 23:50:08,810 INFO (DirectJDKLog.java:173)- An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-02-19 23:50:08,810 INFO (DirectJDKLog.java:173)- Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2022-02-19 23:50:08,810 INFO (DirectJDKLog.java:173)- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-02-19 23:50:08,810 INFO (DirectJDKLog.java:173)- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-02-19 23:50:08,810 INFO (DirectJDKLog.java:173)- OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-02-19 23:50:08,818 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:50:08,818 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-02-19 23:50:08,818 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-19 23:50:08,884 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-02-19 23:50:08,884 INFO (ServletWebServerApplicationContext.java:290)- Root WebApplicationContext: initialization completed in 919 ms
+2022-02-19 23:50:09,046 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationAnnounce".
+2022-02-19 23:50:09,104 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationCheckout".
+2022-02-19 23:50:09,139 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationLateReturn".
+2022-02-19 23:50:09,171 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationRepair".
+2022-02-19 23:50:09,198 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermFinishCheckout".
+2022-02-19 23:50:09,225 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.ApplicationTermStartCheckin".
+2022-02-19 23:50:09,249 WARN (TableInfoHelper.java:335)- Can not find table primary key in Class: "com.truman.BackgroundSystem.entity.DormDetail".
+2022-02-19 23:50:09,921 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-8081"]
+2022-02-19 23:50:09,941 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8081 (http) with context path ''
+2022-02-19 23:50:09,948 INFO (StartupInfoLogger.java:61)- Started BackgroundSystemApplication in 2.4 seconds (JVM running for 2.974)
+2022-02-19 23:50:16,014 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-19 23:50:16,014 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-02-19 23:50:16,015 INFO (FrameworkServlet.java:547)- Completed initialization in 1 ms
+2022-02-19 23:50:16,099 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2022-02-19 23:50:16,314 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2022-02-19 23:56:50,797 WARN (PoolBase.java:184)- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7dbf3835 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-02-19 23:56:51,035 WARN (PoolBase.java:184)- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@683aebc4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-02-19 23:56:55,811 WARN (PoolBase.java:184)- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@ec93c56 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-02-19 23:56:56,049 WARN (PoolBase.java:184)- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4f06ce07 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-02-19 23:57:00,811 WARN (PoolBase.java:184)- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@ab3c32a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-02-19 23:57:01,066 WARN (PoolBase.java:184)- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5918c601 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-02-19 23:57:05,826 WARN (PoolBase.java:184)- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@50c00481 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-02-19 23:57:06,081 WARN (PoolBase.java:184)- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@37cebd7d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-02-19 23:57:10,835 WARN (PoolBase.java:184)- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@32bd9b3c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-02-19 23:57:11,103 WARN (PoolBase.java:184)- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@815148b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
