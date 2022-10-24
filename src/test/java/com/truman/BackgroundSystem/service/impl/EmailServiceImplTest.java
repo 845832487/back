@@ -22,9 +22,9 @@ class EmailServiceImplTest {
     public void send() throws MessagingException {
         Email email = new Email();
 
-        email.setContent("刘佳璐你好我是冯有恒");
+        email.setContent("FYH");
         email.setTo("845832487@qq.com");
-        email.setTitle("刘佳璐是我女朋友");
+        email.setTitle("FYH");
         emailService.sendEmail(email);
 
     }
